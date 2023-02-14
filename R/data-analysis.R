@@ -135,19 +135,19 @@ g <- ggpubr::ggarrange(a,b,c,d,e,f,
 
 #----------------------------------------------------------------------
 
-ggsave(filename='FIGURE1.tiff', 
-       plot=g, device="tiff", 
+ggsave(filename='FIGURE1.jpeg',
+       plot=g, device="jpeg",
        path=getwd(),
-       dpi=800, 
-       height = 6, 
+       dpi=300,
+       height = 6,
        width = 8)
 
-ggsave(filename='FIGURE1.eps', 
-       plot=g, device="eps", 
-       path=getwd(),
-       dpi=800, 
-       height = 6, 
-       width = 8)
+# ggsave(filename='FIGURE1.eps', 
+#        plot=g, device="eps", 
+#        path=getwd(),
+#        dpi=300, 
+#        height = 6, 
+#        width = 8)
 
 #----------------------------------------------------------------------
 
@@ -264,19 +264,19 @@ g <- ggpubr::ggarrange(a,b,
 
 #----------------------------------------------------------------------
 
-ggsave(filename='FIGURE4.tiff', 
-       plot=g, device="tiff", 
+ggsave(filename='FIGURE4.jpeg',
+       plot=g, device="jpeg",
        path=getwd(),
-       dpi=800, 
-       height = 3, 
+       dpi=300,
+       height = 3,
        width = 7)
 
-ggsave(filename='FIGURE4.eps', 
-       plot=g, device="eps", 
-       path=getwd(),
-       dpi=800, 
-       height = 3, 
-       width = 7)
+# ggsave(filename='FIGURE4.eps', 
+#        plot=g, device="eps", 
+#        path=getwd(),
+#        dpi=300, 
+#        height = 3, 
+#        width = 7)
 
 #----------------------------------------------------------------------
 
@@ -305,19 +305,19 @@ g <- ggpubr::ggarrange(a,b,
 
 #----------------------------------------------------------------------
 
-ggsave(filename='FIGURE5.tiff', 
-       plot=g, device="tiff", 
+ggsave(filename='FIGURE5.jpeg',
+       plot=g, device="jpeg",
        path=getwd(),
-       dpi=800, 
-       height = 3, 
+       dpi=300,
+       height = 3,
        width = 7)
 
-ggsave(filename='FIGURE5.eps', 
-       plot=g, device="eps", 
-       path=getwd(),
-       dpi=800, 
-       height = 3, 
-       width = 7)
+# ggsave(filename='FIGURE5.eps', 
+#        plot=g, device="eps", 
+#        path=getwd(),
+#        dpi=300, 
+#        height = 3, 
+#        width = 7)
 
 #----------------------------------------------------------------------
 
@@ -410,19 +410,19 @@ g <- ggpubr::ggarrange(a,b,
 
 #----------------------------------------------------------------------
 
-ggsave(filename='FIGURE6.tiff', 
-       plot=g, device="tiff", 
+ggsave(filename='FIGURE6.jpeg',
+       plot=g, device="jpeg",
        path=getwd(),
-       dpi=800, 
-       height = 4, 
+       dpi=300,
+       height = 4,
        width = 7)
 
-ggsave(filename='FIGURE6.eps', 
-       plot=g, device="eps", 
-       path=getwd(),
-       dpi=800, 
-       height = 4, 
-       width = 7)
+# ggsave(filename='FIGURE6.eps', 
+#        plot=g, device="eps", 
+#        path=getwd(),
+#        dpi=300, 
+#        height = 4, 
+#        width = 7)
 
 #----------------------------------------------------------------------
 

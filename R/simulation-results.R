@@ -106,19 +106,19 @@ figure2 <- ggplot(data = results_betas,
 
 #----------------------------------------------------------------------
 
-ggsave(filename='FIGURE2.tiff', 
-       plot=figure2, device="tiff", 
+ggsave(filename='FIGURE2.jpeg',
+       plot=figure2, device="jpeg",
        path=getwd(),
-       dpi=800, 
-       height = 6, 
+       dpi=300,
+       height = 6,
        width = 8)
 
-ggsave(filename='FIGURE2.eps', 
-       plot=figure2, device="eps", 
-       path=getwd(),
-       dpi=800, 
-       height = 6, 
-       width = 8)
+# ggsave(filename='FIGURE2.eps', 
+#        plot=figure2, device="eps", 
+#        path=getwd(),
+#        dpi=300, 
+#        height = 6, 
+#        width = 8)
 
 #----------------------------------------------------------------------
 
@@ -214,18 +214,18 @@ figure3 <- ggplot(data = results_taus,
 
 #----------------------------------------------------------------------
 
-ggsave(filename='FIGURE3.tiff', 
-       plot=figure3, device="tiff", 
+ggsave(filename='FIGURE3.jpeg',
+       plot=figure3, device="jpeg",
        path=getwd(),
-       dpi=800, 
-       height = 6, 
+       dpi=300,
+       height = 6,
        width = 8)
 
-ggsave(filename='FIGURE3.eps', 
-       plot=figure3, device="eps", 
-       path=getwd(),
-       dpi=800, 
-       height = 6, 
-       width = 8)
+# ggsave(filename='FIGURE3.eps', 
+#        plot=figure3, device="eps", 
+#        path=getwd(),
+#        dpi=300, 
+#        height = 6, 
+#        width = 8)
 
 #----------------------------------------------------------------------
